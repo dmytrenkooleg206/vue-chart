@@ -1,15 +1,14 @@
 <template>
   <div id="app">
     <label>
-      切换为横向
+      Switch to landscape
       <input type="checkbox" v-model="landscape" value="1">
     </label>
     <TreeChart :json="data" :class="{landscape: landscape.length}" @click-node="clickNode" />
     <footer class="foot">
         <p>© 2018 - 3018 Author
-            <a href="https://refined-x.com/" target="_blank">雅X共赏</a> 
             Github 
-            <a href="https://github.com/tower1229/Vue-Tree-Chart" target="_blank">Vue-Tree-Chart</a>
+            <a href="https://github.com/dmytrenkooleg206/vue-chart.git" target="_blank">Vue-Tree-Chart</a>
         </p>
     </footer>
   </div>
